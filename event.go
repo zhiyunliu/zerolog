@@ -883,3 +883,9 @@ func (e *Event) MACAddr(key string, ha net.HardwareAddr) *Event {
 	e.buf = enc.AppendMACAddr(enc.AppendKey(e.buf, key), ha)
 	return e
 }
+
+// ResetLevel resets the event's level to level
+func (e *Event) ResetLevel(level Level) *Event {
+	e.level = level
+	return e
+}
