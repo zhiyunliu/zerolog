@@ -889,3 +889,9 @@ func (e *Event) ResetLevel(level Level) *Event {
 	e.level = level
 	return e
 }
+
+// ResetLevel resets the event's level to level
+func (e *Event) ResetDone(done func(string)) *Event {
+	e.done = done
+	return e
+}
