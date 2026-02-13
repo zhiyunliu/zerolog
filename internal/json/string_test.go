@@ -3,7 +3,7 @@ package json
 import (
 	"testing"
 
-	"github.com/rs/zerolog/internal"
+	"github.com/zhiyunliu/zerolog/internal"
 )
 
 func TestAppendString(t *testing.T) {

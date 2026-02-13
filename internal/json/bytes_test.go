@@ -4,7 +4,7 @@ import (
 	"testing"
 	"unicode"
 
-	"github.com/rs/zerolog/internal"
+	"github.com/zhiyunliu/zerolog/internal"
 )
 
 var enc = Encoder{}

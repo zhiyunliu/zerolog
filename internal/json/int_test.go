@@ -6,7 +6,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/rs/zerolog/internal"
+	"github.com/zhiyunliu/zerolog/internal"
 )
 
 func TestAppendInts8(t *testing.T) {

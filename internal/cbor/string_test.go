@@ -5,7 +5,7 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/rs/zerolog/internal"
+	"github.com/zhiyunliu/zerolog/internal"
 )
 
 var encodeStringTests = []struct {

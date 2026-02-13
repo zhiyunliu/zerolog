@@ -8,7 +8,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/rs/zerolog/internal"
+	"github.com/zhiyunliu/zerolog/internal"
 )
 
 var float64Tests = []struct {
